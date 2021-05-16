@@ -1,0 +1,16 @@
+.card {
+  position: relative;
+}
+.time {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  color: #fff;
+  padding: 0 0.25rem;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.time:hover {
+  color: #000;
+  background: #fff;
+}
